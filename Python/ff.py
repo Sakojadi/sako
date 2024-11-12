@@ -1,7 +1,7 @@
 from time import time
 from random import randint
 from collections import defaultdict
-a = [[randint(10,100) for i in range(1000)] for i in range(1000)]
+a = [[randint(10,100) for i in range(1000)] for i in range(10000)]
 
 # start = time()
 # resr = []
